@@ -1,0 +1,30 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+/* nav{
+    margin: 0 auto;
+} */
+
+.logo{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+/* .logo-2{
+    color: blue;
+} */
+
+/* .btn{
+
+} */
+
+.btn-gradient {
+  background: linear-gradient(
+    to right,
+    #F7E93F 0%,
+   #FB09B4 51%,
+    #9100F8 100%
+  )}
+ 
+  /*  */
