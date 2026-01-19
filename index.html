@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Wave</title>
     <!-- tailwind link  -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <!-- font -->
+    <!-- font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     </style>
@@ -18,28 +19,88 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body class="inter-font">
-   <header>
-        <nav class=>
+    <header>
+        <nav class="navbar">
             <div class="flex justify-around  bg-[#1A0B2E] text-[#FFFFFF] py-6">
-                <h1 class="logo">Tech<span class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></h1>
-              
+                <h1 class="logo">Tech<span
+                        class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+                </h1>
+
                 <ul class="flex gap-5 items-center">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
-                <button class="btn-gradient font-semibold p-4 rounded-4xl">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-              
+                <button class="btn-gradient font-semibold p-4 rounded-4xl">Subscribe <i
+                        class="fa-solid fa-arrow-right"></i></button>
+
             </div>
-              <hr>
+            <hr>
         </nav>
-   </header>
-   <main>
+        <!-- banner  -->
+        <section>
+            <div>
+                <img class="hero-bg" src="assets/hero-bg.png" alt="">
+                <div>
+                    <img class="hero-circle" src="assets/hero-circle.png" alt="">
+                    <img class="microphon" src="assets/microphone.png" alt="">
+                </div>
 
-   </main>
-   <footer>
+                <P class="btn bg-[#00FF88] text-[#1A0B2E] rounded-3xl font-semibold p-3">NEW</P>
+            </div>
 
-   </footer>
+            <div class="banner-text ">
+                <p class="text-[#FFFFFF] mb-3.5 font-thin">Your daily dose of tech insights, productivity hacks, and personal
+                    growth</p>
+                <div class="flex gap-4 justify-center">
+                    <button class="flex btn-gradient text-[#FFFFFF] p-3 rounded-2xl items-center gap-2"> <img
+                            src="assets/spotify.png" alt=""> Listen on Spotify</button>
+                    <button class="flex gap-1 items-center p-3 border-2 rounded-2xl border-[#00FF88] text-[#00FF88]">
+                        <img src="assets/message.png" alt="">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- about podcast part -->
+        <section class="text-center bg-[#1A0B2E] pt-5 pb-10 text-[#FFFFFF]">
+            <div class="about-podcast">
+                <h1 class="text-4xl font-bold mb-4">About The Podcast</h1>
+                <p class="font-thin text-sm opacity-80 mb-10">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,<br>
+                    and share stories of personal growth from industry leaders.
+                    <br>
+                    <br>
+        
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+                <hr class="hr">
+               <div class="flex gap-3 justify-around my-16">
+                    <div>
+                        <h1 class="text-3xl font-black text-[#00FF88]">150K+</h1>
+                        <p class="font-thin py-2">MONTHLY LISTENERS</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-black text-[#00FF88]">200+</h1>
+                        <p class="font-thin py-2">EPISODES PUBLISHED</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-black text-[#00FF88]">4.9★</h1>
+                        <p class="font-thin py-2">AVERAGE RATING</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-black text-[#00FF88]" >50+</h1>
+                        <p class="font-thin py-2">INDUSTRY EXPERTS</p>
+                    </div>
+               </div> 
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
