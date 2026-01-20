@@ -13,10 +13,11 @@ nav, header{
     max-width: 100%;
 } */
 
-.logo{
-    font-weight: 800;
-    font-size: 2.5rem;
+.logo {
+  font-weight: 800;
+  font-size: 2.5rem;
 }
+
 /* .logo-2{
     color: blue;
 } */
@@ -26,74 +27,98 @@ nav, header{
 } */
 
 .btn-gradient {
-  background: linear-gradient(
-    to right,
-    #F7E93F 0%,
-   #FB09B4 51%,
-    #9100F8 100%
-  )}
+  background: linear-gradient(to right,
+      #F7E93F 0%,
+      #FB09B4 51%,
+      #9100F8 100%)
+}
 
-  hr{
-    height: 3px;
-    background-color: #412567;
-  }
+hr {
+  height: 3px;
+  background-color: #412567;
+}
 
 
-  /* banner style */
-.hero-bg{
+/* banner style */
+.hero-bg {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
-  .hero-circle{
-    position: absolute;
-        top: 28%;
-    right: 36%;
-  }
-  .microphon{
-    position: absolute;
+.hero-circle {
+  position: absolute;
+  top: 28%;
+  right: 36%;
+}
 
-    top: 40%;
-    right: 45%;
-  }
+.microphon {
+  position: absolute;
 
-  .btn{
-    max-width: 72px;
-    text-align: center;
-    position: absolute;
-     top: 33%;
-    right: 36%;
-    box-shadow:  0 3px 27px rgba(0, 255, 136, 0.5);
-  }
+  top: 40%;
+  right: 45%;
+}
 
-  .banner-text{
-     position: absolute;
+.btn {
+  max-width: 72px;
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  right: 36%;
+  box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5);
+}
 
-    top: 95%;
-    right: 30%;
-  }
- /* about podcast related style */
- .about-podcast, 
- .hr{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-   
- }
+.banner-text {
+  position: absolute;
 
- .hr{
-    opacity: 10%;
- }
+  top: 95%;
+  right: 30%;
+}
+
+/* about podcast related style */
+.about-podcast,
+.hr {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.hr {
+  opacity: 10%;
+}
 
 
- /* why chose techwave related style */
+/* why chose techwave related style */
 
- .Why-Choose-container{
+.Why-Choose-container {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
- }
+}
+
+
+
+/* footer related style */
+
+.footer {
+
+  background-image: url("assets/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .footer-text {
+ text-align: center;
+ 
+  
+
+} */
