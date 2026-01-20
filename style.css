@@ -3,28 +3,18 @@
   font-style: normal;
 }
 
-/* body{
-  max-width: 1600px;
-  margin: 0 auto;
-} */
-/* 
-nav, header{
-    margin: 0 auto;
-    max-width: 100%;
-} */
 
 .logo {
   font-weight: 800;
   font-size: 2.5rem;
 }
 
-/* .logo-2{
-    color: blue;
-} */
+/* nav related style */
 
-/* .btn{
+.ham-menu {
+  display: none;
+}
 
-} */
 
 .btn-gradient {
   background: linear-gradient(to right,
@@ -39,25 +29,43 @@ hr {
 }
 
 
-/* banner style */
-.hero-bg {
-  max-width: 1600px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+
+/* banner related style */
+.banner-container{
+  background-image: url("assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+
+.banner-content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .hero-circle {
-  position: absolute;
-  top: 28%;
-  right: 36%;
+ align-items: center;
+ justify-items: center;
+ 
 }
 
-.microphon {
+.microphone {
   position: absolute;
 
-  top: 40%;
-  right: 45%;
+} 
+
+.new{
+  position: absolute;
+  right: 37%;
+  top: 30%;
+  box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5);
+  
 }
 
 .btn {
@@ -67,13 +75,6 @@ hr {
   top: 33%;
   right: 36%;
   box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5);
-}
-
-.banner-text {
-  position: absolute;
-
-  top: 95%;
-  right: 30%;
 }
 
 /* about podcast related style */
@@ -95,7 +96,6 @@ hr {
 .Why-Choose-container {
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -110,15 +110,34 @@ hr {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
-/* .footer-text {
- text-align: center;
+/* responsive related style */
+
+@media screen and (max-width:576px) {
+  .menu, .btn-nav{
+    display: none;
+  }
+
+  .ham-menu {
+  display: block;
  
+  }
+  .podcast-review, .footer-icon-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Why-Choose-container, .episodes-card, .host-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
   
 
-} */
+
+  
+}

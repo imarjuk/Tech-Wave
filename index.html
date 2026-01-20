@@ -24,44 +24,62 @@
     <header>
         <nav class="navbar">
             <div class="flex justify-around  bg-[#1A0B2E] text-[#FFFFFF] py-6">
-                <h1 class="logo">Tech<span
-                        class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
-                </h1>
+                <div class="logo">
+                    <h1>Tech<span
+                            class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+                    </h1>
 
-                <ul class="flex gap-5 items-center">
+                </div>
+
+
+                <ul class="menu flex gap-5 items-center">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
-                <button class="btn-gradient font-semibold p-4 rounded-4xl">Subscribe <i
+                <button class="btn-nav btn-gradient font-semibold p-4 rounded-4xl">Subscribe <i
                         class="fa-solid fa-arrow-right"></i></button>
 
+                <div class="ham-menu py-6">
+                    <img src="assets/hamburger-menu.png" alt="">
+                </div>
+
             </div>
+
             <hr>
         </nav>
         <!-- banner  -->
         <section>
-            <div>
-                <img class="hero-bg" src="assets/hero-bg.png" alt="">
-                <div>
+            <div class="banner-container py-10">
+                <div class="banner-content">
+
                     <img class="hero-circle" src="assets/hero-circle.png" alt="">
-                    <img class="microphon" src="assets/microphone.png" alt="">
+                    <img class="microphone" src="assets/microphone.png" alt="">
+
+                    <p class="new bg-[#00FF88] rounded-2xl p-2 justify-center text-center items-center">New</p>
+
                 </div>
 
-                <P class="btn bg-[#00FF88] text-[#1A0B2E] rounded-3xl font-semibold p-3">NEW</P>
+
+                <div class="banner-text text-center items-center py-10">
+                    <p class="text-[#FFFFFF] mb-3.5 font-thin">Your daily dose of tech insights, productivity hacks, and
+                        personal
+                        growth</p>
+                    <div class="flex gap-4 justify-center">
+                        <button class="flex btn-gradient text-[#FFFFFF] p-3 rounded-2xl items-center gap-2"> <img
+                                src="assets/spotify.png" alt=""> Listen on Spotify</button>
+                        <button
+                            class="flex gap-1 items-center p-3 border-2 rounded-2xl border-[#00FF88] text-[#00FF88]">
+                            <img src="assets/message.png" alt="">Subscribe</button>
+                    </div>
+                </div>
+
+
+
             </div>
 
-            <div class="banner-text ">
-                <p class="text-[#FFFFFF] mb-3.5 font-thin">Your daily dose of tech insights, productivity hacks, and
-                    personal
-                    growth</p>
-                <div class="flex gap-4 justify-center">
-                    <button class="flex btn-gradient text-[#FFFFFF] p-3 rounded-2xl items-center gap-2"> <img
-                            src="assets/spotify.png" alt=""> Listen on Spotify</button>
-                    <button class="flex gap-1 items-center p-3 border-2 rounded-2xl border-[#00FF88] text-[#00FF88]">
-                        <img src="assets/message.png" alt="">Subscribe</button>
-                </div>
-            </div>
+
+
         </section>
     </header>
     <main>
@@ -81,7 +99,7 @@
                 </p>
             </div>
             <hr class="hr">
-            <div class="flex gap-3 justify-around my-16">
+            <div class="podcast-review flex gap-3 justify-around my-16">
                 <div>
                     <h1 class="text-3xl font-black text-[#00FF88]">150K+</h1>
                     <p class="font-thin py-2">MONTHLY LISTENERS</p>
@@ -143,7 +161,7 @@
         <!-- Featured Episodes -->
         <section class=" bg-[#1A0B2E] text-[#FFFFFF] py-10">
             <h1 class="text-center font-bold text-5xl my-10">Featured Episodes</h1>
-            <div class="flex gap-4 justify-around mx-40">
+            <div class="episodes-card flex gap-4 justify-center">
                 <div class="bg-[#250D44] rounded-2xl w-[380px]">
 
                     <iframe width="380" height="214" src="https://www.youtube.com/embed/uudNhqHcs6o?si=esKorJVfkufXDqq8"
@@ -155,25 +173,25 @@
 
 
                     <h3 class="p-4 font-bold text-2xl">রিজেকশন খাওয়ার মানসিকতা এবং ইন্টারভিউ হ্যাকস</h3>
-                    <p class="p-4  font-thin opacity-65">ইন্টারভিউ দিলেই যে চাকরি হবে এমন কোনো কথা নেই। ঝংকার ভাই যেমন
-                        বলেন প্রথম ১০-১২টা ইন্টারভিউকে
-                        জাস্ট প্র্যাকটিস বা টেস্ট হিসেবে নাও । রিজেকশন আসতেই পারে এমনকি বারবার ফলোআপ করার পরেও কোম্পানি
-                        তোমাকে রিপ্লাই নাও দিতে পারে । কিন্তু হতাশ না হয়ে মুভ অন করাটাই আসল স্মার্টনেস।</p>
+                    <p class="p-4  font-thin opacity-65"> রিজেকশন আসতেই পারে এমনকি বারবার ফলোআপ করার পরেও কোম্পানি
+                        তোমাকে রিপ্লাই নাও দিতে পারে । </p>
 
-                    <div class="flex gap-2 p-4 items-center ">
+                    <div class="flex gap-2 p-4 items-center">
                         <img src="assets/clock.png" alt="">
                         <p class="text-[#00FF88]">2.33 min</p>
                     </div>
                 </div>
                 <div class="bg-[#250D44] rounded-2xl  w-[380px]">
+
                     <iframe width="380" height="214" src="https://www.youtube.com/embed/vBBBqHwH078?si=6b8hOFW4IrDDcbT3"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                     <h3 class="p-4 font-bold text-2xl">সুপার গাইডেড আনলিমিটেড সাপোর্ট সিস্টেম!</h3>
                     <p class="p-4 font-thin opacity-65">শিখতে গিয়ে আটকে যাওয়া নিয়ে আর কোনো ভয় নেই!
-                        আমাদের বুটক্যাম্পে তুমি পাবে ক্রেজি লেভেলের ২৪/৭ সাপোর্ট</p>
-                    <div class="flex gap-2 p-4 items-center ">
+                        আমাদের বুটক্যাম্পে তুমি পাবে ক্রেজি লেভেলের ২৪/৭ সাপোর্ট </p>
+                    <div class="flex gap-2 p-4 items-center">
                         <img src="assets/clock.png" alt="">
                         <p class="text-[#00FF88]">2.43 min</p>
                     </div>
@@ -185,8 +203,7 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <h3 class="p-4 font-bold text-2xl">৫৫০০ টাকা কোথায় ইনভেস্ট করা উচিত?</h3>
                     <p class="p-4 font-thin opacity-65">🔔 Don't forget to subscribe and hit the bell icon so you don't
-                        miss our next videos. Give this video a thumbs up 👍 if you find it useful, and share your
-                        thoughts in the comments. Let's learn and grow together!</p>
+                        miss our next videos. Give this video a thumbs up 👍!</p>
 
                     <div class="flex gap-2 p-4 items-center ">
                         <img src="assets/clock.png" alt="">
@@ -202,7 +219,7 @@
 
         <section class="bg-[#1A0B2E] text-[#FFFFFF] py-10">
             <h2 class="text-center font-bold text-5xl my-10">Meet the Host</h2>
-            <div class="flex items-center justify-between p-6 gap-5 bg-[#351165] rounded-2xl mx-40">
+            <div class="host-card flex items-center justify-between p-6 gap-5 bg-[#351165] rounded-2xl mx-40">
                 <div>
                     <img src="assets/host.png" alt="">
                 </div>
@@ -224,35 +241,33 @@
         </section>
     </main>
     <footer>
-        <!-- <div class="relative">
-            <img class="relative" src="assets/footer-bg.png" alt="">
-        </div> -->
-       <div class="footer">
-         <div class="footer-text text-center py-25">
-            <h1 class="logo text-[#FFFFFF]">Tech<span
-                    class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
-            </h1>
-            <div class="flex items-center gap-8 py-8 text-[#FFFFFF]">
-                <div class="flex items-center gap-2">
-                    <img src="assets/spotify.png" alt="">
-                    <p>Spotify</p>
+
+        <div class="footer">
+            <div class="footer-text text-center py-25">
+                <h1 class="logo text-[#FFFFFF]">Tech<span
+                        class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+                </h1>
+                <div class="footer-icon-card flex items-center gap-8 py-8 text-[#FFFFFF]">
+                    <div class="flex items-center gap-2">
+                        <img src="assets/spotify.png" alt="">
+                        <p>Spotify</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="assets/apple-podcast.png" alt="">
+                        <p>Apple Podcasts</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="assets/youtube-podcast.png" alt="">
+                        <p>YouTube</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="assets/twitter.png" alt="">
+                        <p>Twitter</p>
+                    </div>
                 </div>
-                <div class="flex items-center gap-2">
-                    <img src="assets/apple-podcast.png" alt="">
-                    <p>Apple Podcasts</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <img src="assets/youtube-podcast.png" alt="">
-                    <p>YouTube</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <img src="assets/twitter.png" alt="">
-                    <p>Twitter</p>
-                </div>  
-            </div>  
-            <p class="text-[#FFFFFF]">© 2026 TechWave Podcast. All rights reserved.</p>
+                <p class="text-[#FFFFFF]">© 2026 TechWave Podcast. All rights reserved.</p>
+            </div>
         </div>
-       </div>
     </footer>
 </body>
 
