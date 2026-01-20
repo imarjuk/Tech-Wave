@@ -94,10 +94,8 @@ hr {
 /* why chose techwave related style */
 
 .Why-Choose-container {
-  margin: 0 auto;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 200px;
+ 
 }
 
 
@@ -136,8 +134,31 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  
 
-
-  
+    
 }
+
+/* medium device  */
+
+@media screen and (min-width:577px) and (max-width:792px){
+
+   .menu, .btn-nav{
+    display: none;
+  }
+
+  .ham-menu {
+  display: block;
+ 
+  }
+  .podcast-review, .footer-icon-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Why-Choose-container, .episodes-card, .host-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+    
+}
+
