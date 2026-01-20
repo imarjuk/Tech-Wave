@@ -2,6 +2,11 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
+
+/* body{
+  max-width: 1600px;
+  margin: 0 auto;
+} */
 /* 
 nav, header{
     margin: 0 auto;
@@ -36,7 +41,10 @@ nav, header{
 
   /* banner style */
 .hero-bg{
-    position: relative;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
   .hero-circle{
@@ -77,4 +85,15 @@ nav, header{
 
  .hr{
     opacity: 10%;
+ }
+
+
+ /* why chose techwave related style */
+
+ .Why-Choose-container{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
  }
